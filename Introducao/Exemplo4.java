@@ -10,8 +10,7 @@ public class Exemplo4 {
 		System.out.print("digite uma letra: ");
 		x=ler.nextLine();
 		
-		switch (x) 
-		{
+		switch (x) {
 		case "a":
 			System.out.println("vogal");
 			break;
