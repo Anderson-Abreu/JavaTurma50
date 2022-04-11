@@ -6,11 +6,14 @@ public class Escola {
 		
 		Aluno a = new Aluno();
 		Professor p = new Professor();
+		//Pessoa gente = new Pessoa();
+		
 		
 		a.setIdade(18);
 		p.setSalario(5000.00);
 		
-		p.nome="Andersno";
+		p.nome="Anderson";
+	
 		
 		p.aumento(1000.00);
 		

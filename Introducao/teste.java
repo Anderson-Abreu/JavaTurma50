@@ -3,8 +3,13 @@ package Introducao;
 public class teste {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		for(int x=1; x<100; x++)
+		{
+			System.out.println(x);
+			if(x>5)
+				break;
+		}
 	}
 
 }

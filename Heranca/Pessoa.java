@@ -1,11 +1,11 @@
 package Heranca;
 
-public class Pessoa {
+public abstract class Pessoa {
 	
 	protected String nome;
 	private int idade;
 	private String sexo;
-	
+
 	public void aniversario()
 	{
 		this.idade++;//this.idade=this.idade+1
